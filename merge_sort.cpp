@@ -42,7 +42,7 @@ void merge(int low, int mid, int high, int* A)
         A[low + k] = B[k];
     }
 
-    delete[] B; // Free the memory allocated for B
+    delete[] B;
 }
 
 void merge_sort(int low, int high, int* A)
@@ -76,7 +76,7 @@ int main()
         cout << A[i] << " ";
     }
 
-    delete[] A; // Free the memory allocated for A
+    delete[] A;
 
     return 0;
 }
